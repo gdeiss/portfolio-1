@@ -2,6 +2,8 @@ import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
+import Carousel from 'react-bootstrap/Carousel';
+import Image from 'react-bootstrap/Image';
 
 import world from '../datasci/world.png';
 import state from '../datasci/state.png';
@@ -10,8 +12,8 @@ import letters from '../datasci/letters.png';
 
 var imageStyle = {
     flex: 1,
-    width: 420,
-    height: 240,
+    width: 450,
+    height: 220,
     resizeMode: 'contain'
 }
 
@@ -30,14 +32,14 @@ function Art() {
           </Col>
         </Row>
         <Row>
-          <div class='col-1'></div>
-          <div class='col-md-auto'>
-            <img src={world} style = {imageStyle} alt="fireSpot"/>
-          </div>
-          <div class='col-md-auto'>
-            <img src={state} style = {imageStyle} alt="fireSpot"/>
-          </div>
-          <div class='col-1'></div>
+          <Carousel variant='dark' nextLabel='' prevLabel='' prevIcon=''>
+            <Carousel.Item>
+              <img src={world} style={imageStyle} alt="fireSpot"/>
+            </Carousel.Item>
+            <Carousel.Item>
+              <img src={state} style = {imageStyle} alt="fireSpot"/>
+            </Carousel.Item>
+          </Carousel>
         </Row>
         <Row>
           <Col>
