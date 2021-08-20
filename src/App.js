@@ -53,16 +53,18 @@ class App extends React.Component {
       <Router>
         <Container className="p-0" fluid={true} style={{backgroundColor : 'black'}}>
           
-          <Navbar className="border-bottom" expand="lg" style={{backgroundColor : 'black'}}>
+          <Navbar className="border-bottom" expand="lg" variant="dark">
             <Navbar.Brand className="px-3" style={{color : 'white'}}>Gavin Deiss</Navbar.Brand>
-            <Nav className="ml-auto">
+
+            <Navbar.Toggle className="border-0" aria-controls="navbar-toggle" />
+            <Navbar.Collapse id="navbar-toggle">
               <Link className="nav-link ml-auto" style={{color : 'white'}} to="/">Home</Link>
               <Link className="nav-link ml-auto" style={{color : 'white'}} to="/contact">Contact</Link>
               <NavDropdown title="Projects" style={{color : 'white', backgroundColor : 'black'}} id="projects-dropdown" className="ml-auto">
                 <NavDropdown.Item style={{color : 'white', backgroundColor : 'black'}} href="/data-sci">Data Science</NavDropdown.Item>
                 <NavDropdown.Item style={{color : 'white', backgroundColor : 'black'}} href="/art">Art</NavDropdown.Item>
               </NavDropdown>
-            </Nav>
+            </Navbar.Collapse>
           </Navbar>
 
           <Route path="/" exact render={() => <Home title={this.state.home.title} />} />
