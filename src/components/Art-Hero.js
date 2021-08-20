@@ -1,6 +1,7 @@
 import React from 'react';
 import Jumbotron from 'react-bootstrap/Jumbotron';
 import Container from 'react-bootstrap/Container';
+import Image from 'react-bootstrap/Image';
 import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 
@@ -29,28 +30,30 @@ function Art() {
       <Container>
         <Row>
           <Col>
-            <img src={blackhole} style = {imageStyle} alt="fireSpot"/>
+            <Image src={blackhole} fluid/>
           </Col>
           <Col>
-            <img src={neonSunset} style = {imageStyle} alt="fireSpot"/>
+            <Image src={neonSunset} fluid alt="fireSpot"/>
           </Col>
           <Col>
-            <img src={inkRuns} style = {imageStyle} alt="fireSpot"/>
+            <Image src={inkRuns} fluid alt="fireSpot"/>
           </Col>
           <Col>
-            <img src={quartz} style = {imageStyle} alt="fireSpot"/>
+            <Image src={quartz} fluid alt="fireSpot"/>
+          </Col>
+        </Row>
+        <Row>
+          <Col>
+            <Image src={snowflake} fluid alt="fireSpot"/>
           </Col>
           <Col>
-            <img src={snowflake} style = {imageStyle} alt="fireSpot"/>
+            <Image src={whirlpool} fluid alt="fireSpot"/>
           </Col>
           <Col>
-            <img src={whirlpool} style = {imageStyle} alt="fireSpot"/>
+            <Image src={dunes} fluid alt="fireSpot"/>
           </Col>
           <Col>
-            <img src={dunes} style = {imageStyle} alt="fireSpot"/>
-          </Col>
-          <Col>
-            <img src={kaleidoscope} style = {imageStyle} alt="fireSpot"/>
+            <Image src={kaleidoscope} fluid alt="fireSpot"/>
           </Col>
         </Row>
       </Container>
