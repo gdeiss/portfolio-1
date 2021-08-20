@@ -14,14 +14,6 @@ import whirlpool from '../csacad-work/whirlpool.gif';
 import dunes from '../csacad-work/dunes1.gif';
 import kaleidoscope from '../csacad-work/kaleidoscope.gif';
 
-var imageStyle = {
-    flex: 1,
-    width: 220,
-    height: 220,
-    resizeMode: 'contain'
-}
-
-
 
 function Art() {
 
