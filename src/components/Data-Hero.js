@@ -27,7 +27,7 @@ function Art() {
           <Col>
             <h1 style={{color : 'white'}}> Visualizing Covid </h1>
             <h3 style={{color : 'white', fontSize : "1.5em"}}> November 2020 </h3>
-            <p style={{color : 'white'}}> Group project for CMU course 36-315, Statistical Graphics & Visualizations. Each member created 2 interactive visuals of their choice using <a href="https://www.kaggle.com/imdevskp/corona-virus-report">this</a> time series dataset on Covid-19 in the US and the world in R. Our work was compiled into a tidyverse app that can be run from any web browser. It is currently in a private github repository to comply with course policy, but screenshots of my contributions can be seen below. On the left is a time series of deaths & hospitalizations overtime with resizable x-axis and the ability to hover over a specific date to get exact numbers of cases. On the right, a time series of cases by state in the US, with the ability to add and remove states from the graphic.</p>
+            <p style={{color : 'white'}}> Group project for CMU course 36-315, Statistical Graphics & Visualizations. Each member created 2 interactive visuals of their choice in R using <a href="https://www.kaggle.com/imdevskp/corona-virus-report">this</a> time series dataset on Covid-19 in the US and the world. Our work was compiled into a tidyverse app that can be run from any web browser. It is currently in a private github repository to comply with course policy, but screenshots of my contributions can be seen below. </p>
           </Col>
         </Row>
         <Row>
@@ -44,7 +44,7 @@ function Art() {
           <Col>
             <h1 style={{color : 'white', padding : "20px 0px 0px 0px"}}> Rap and R&B: Classification and Recommendation </h1>
             <h3 style={{color : 'white', fontSize : "1.5em"}}> May 2021 </h3>
-            <p style={{color : 'white'}}> Data report fully viewable in Google Colab <a href="https://colab.research.google.com/drive/1GOMd4U0wFLBEQm4BTm64uGMuIEB4n21G#scrollTo=XMrcsQ0iC85_">here</a>. By scraping data from albumoftheyear.org, and using the Spotify API, we were able to build a recommender system for a given song and train a simple neural network to classify a song as either rap or R&B -two very similar genres- with 73% accuracy.</p>
+            <p style={{color : 'white'}}> Data report fully viewable in Google Colab <a href="https://colab.research.google.com/drive/1GOMd4U0wFLBEQm4BTm64uGMuIEB4n21G#scrollTo=XMrcsQ0iC85_">here</a>. By scraping data from albumoftheyear.org, and using the Spotify API, we were able to build a recommender system for a given song and train a neural network to classify a song as either rap or R&B -two relatively similar genres- with 73% accuracy on test dataset.</p>
           </Col>
         </Row>
         <Row>

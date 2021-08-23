@@ -44,16 +44,16 @@ function Hero(props) {
           <p style={{ color: 'white', fontSize:'1em', padding: "30px 50px 0px 0px", marginLeft :"40px" }}>     I am a student at Carnegie Mellon University studying Statistics & Machine Learning with a minor in Game Design. You may have read that above. </p>
         </Row>
         <Row>
-          <p style={{ color: 'white', fontSize:'1em', padding: "10px 50px 0px 0px", marginLeft :"40px" }}>     Outside of schoolwork I enjoy music, games, reading, and volunteer work. </p>
+          <p style={{ color: 'white', fontSize:'1em', padding: "10px 50px 0px 0px", marginLeft :"40px" }}>     Outside of schoolwork I enjoy music, games, reading, and running. </p>
         </Row>
         <Row>
-          <p style={{ color: 'white', fontSize:'1em', padding: "10px 50px 0px 0px", marginLeft :"40px" }}>     Outside of music, games, reading, and volunteer work, I enjoy schoolwork. My chief interest lies in Data Science. I love the blend of the technical aspects of Machine Learning, modelling, etc. with the more creative process of visualizing data and writing a report. </p>
+          <p style={{ color: 'white', fontSize:'1em', padding: "10px 50px 0px 0px", marginLeft :"40px" }}>     Outside of music, games, reading, and running, I enjoy schoolwork. My chief interest lies in Data Science. I love the blend of the technical aspects of Machine Learning, modelling, etc. with the more creative process of visualizing data and writing a report. </p>
         </Row>
         <Row>
-          <p style={{ color: 'white', fontSize:'1em', padding: "10px 50px 0px 0px", marginLeft :"40px" }}>     My primary languages are Python, R, and English, but I'm also familiar with Java, SQL, and just enough Javascript to make this website. I'm always excited to learn about more languages, libraries, and tools. </p>
+          <p style={{ color: 'white', fontSize:'1em', padding: "10px 50px 0px 0px", marginLeft :"40px" }}>     My primary languages are Python, R, and English, but I'm also familiar with Java, SQL, and enough Javascript to make this website. I'm always excited to learn about more languages, libraries, and tools. </p>
         </Row>
         <Row>
-          <p style={{ color: 'white', fontSize:'1em', padding: "10px 70px 0px 0px", marginLeft :"40px" }}>     I'd be happy working for any company with a good culture and a good mission. I'm currently a student worker at CMU's computer science academy, an online curriculum focused on making CS education more fun accessible to students who wouldn't otherwise have the resources to learn programming. We use our own custom graphics package to make exercises grounded in engaging visuals. Some of the exercises & art I've made can be viewed under the projects tab.  </p>
+          <p style={{ color: 'white', fontSize:'1em', padding: "10px 70px 0px 0px", marginLeft :"40px" }}>     I'd be happy working for any company with a good culture and a good mission. I'm currently a student worker at CMU's computer science academy, an online curriculum focused on making CS education more fun accessible to students who wouldn't otherwise have the resources to learn programming. We use our own custom graphics package to make exercises grounded in engaging visuals. Some of the exercises & art I've made can be viewed under the projects tab, in addition to some data science projects.  </p>
         </Row>
       </Container>
     </Jumbotron>

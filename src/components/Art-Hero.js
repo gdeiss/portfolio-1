@@ -13,6 +13,7 @@ import snowflake from '../csacad-work/snowflake.gif';
 import whirlpool from '../csacad-work/whirlpool.gif';
 import dunes from '../csacad-work/dunes1.gif';
 import kaleidoscope from '../csacad-work/kaleidoscope.gif';
+import knitting from '../csacad-work/knitting.gif';
 
 
 function Art() {
@@ -46,6 +47,9 @@ function Art() {
           </Col>
           <Col>
             <Image src={kaleidoscope} fluid alt="fireSpot"/>
+          </Col>
+          <Col>
+            <Image src={knitting} fluid alt="fireSpot"/>
           </Col>
         </Row>
       </Container>
